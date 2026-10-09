@@ -1,7 +1,7 @@
 package uk.ac.westminster.products_api.dtos;
 
 public class Product {
-    private int id;
+    private Long id;
     private String name;
     private double price;
 
@@ -11,10 +11,10 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-    public int getId() {
+    public Long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
     public String getName() {
